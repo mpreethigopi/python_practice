@@ -1,5 +1,5 @@
 n = 8
-for i in range(n):
+"""for i in range(n):
     
     for j in range(i, n-1):
         print(" ", end=" ")  
@@ -7,11 +7,11 @@ for i in range(n):
         print("*", end=" ")
 
     for j in range(i):
-        print("*", end=" ")
+        print(" ", end=" ")
     for j in range(i, n-1):
-        print(" ", end=" ") 
+        print("*", end=" ") 
 
-    print()
+    print()"""
 
 for i in range(n):
 
@@ -20,13 +20,9 @@ for i in range(n):
     for j in range(i, n-1):
         print("*", end=" ")  
     
-    for j in range(i+1,n-1):
+    """for j in range(i+1,n-1):
         print("*",end=" ")
     for j in range(i):
-        print(" ",end=" ") 
+        print(" ",end=" ") """
 
     print()
-
-
-
-
